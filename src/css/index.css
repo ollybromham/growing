@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: -apple-system, Helvetica;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-right: 0.5rem;
+  transition: color 1s ease;
+}
+
+a.fade {
+  color: rgba(0,0,0,0.1);
+}
+
+a.linked {
+  color: blue;
+}

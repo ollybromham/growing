@@ -1,0 +1,19 @@
+{
+  "name": "growing",
+  "description": "",
+  "author": "Olly Bromham",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "build": "parcel build src/index.html --no-minify",
+    "dev": "parcel src/index.html --open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "an-array-of-english-words": "^2.0.0"
+  }
+}
