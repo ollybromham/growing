@@ -1,3 +1,3 @@
-# Growing (How a Word became a Hyperlink)
+# Growing
 
 https://growing.ollybromham.com
