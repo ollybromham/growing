@@ -6,25 +6,48 @@
 
 .app {
   width: 100vw;
-  padding: 0.5rem 1rem;
+  height: 100vh;
+  overflow: hidden;
+  /* padding: 0.5rem 1rem; */
   display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
   flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 
 a {
-  color: black;
-  text-decoration: none;
+  /* color: black;
+  text-decoration: none; */
   font-family: -apple-system, Helvetica;
   font-size: 1rem;
   line-height: 1.5;
-  margin-right: 0.5rem;
-  transition: color 1s ease;
-}
-
-a.fade {
-  color: rgba(0,0,0,0.1);
-}
-
-a.linked {
+  /* margin-right: 0.5rem; */
+  background: blue;
   color: blue;
 }
+
+a.visited {
+  /* color: purple; */
+  background: white;
+}
+
+
+/* html{
+    background: rgb(100,100,0);
+}
+@keyframes glow{
+    0% { background: rgb(18, 1, 1); }
+    50% { background: rgb(39, 11, 5); }
+    100% { background: rgb(18, 1, 1); }
+}
+body{
+  min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255,0.7);
+    animation: glow linear 10s infinite;
+    opacity: 1;
+    transition: opacity 0.25s ease;
+} */
